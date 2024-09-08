@@ -1,0 +1,103 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #6bb76d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header .logo img {
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    background-color: #d8a73b;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Sección de bienvenida */
+.bienvenido {
+    text-align: center;
+    margin: 20px 0;
+    color: #f4511e;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Sección del mensaje */
+.mensaje {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.boton {
+    background-color: #f7b42c;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.boton:hover {
+    background-color: #ffe066;
+}
+
+/* Imagen de fondo */
+.fondo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #6bb76d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
